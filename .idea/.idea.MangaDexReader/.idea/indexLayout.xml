@@ -3,7 +3,8 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
-      <Path>Assets</Path>
+      <Path>../../UnityEditors/Unity2019.2.15f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics</Path>
+      <Path>../../UnityEditors/Unity2019.2.15f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.ide.rider@1.1.0</Path>
@@ -19,6 +20,8 @@
       <Path>Build</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>New folder</Path>
+      <Path>Temp</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>

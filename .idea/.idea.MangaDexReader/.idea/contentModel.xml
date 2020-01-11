@@ -16,116 +16,11 @@
         <e p="MangaReader.cs" t="Include" />
         <e p="MangaResponse.cs" t="Include" />
         <e p="ParseStringConverter.cs" t="Include" />
-        <e p="UniRx.Async" t="Include">
-          <e p="AsyncUnit.cs" t="Include" />
-          <e p="CancellationTokenEqualityComparer.cs" t="Include" />
-          <e p="CancellationTokenExtensions.cs" t="Include" />
-          <e p="CancellationTokenSourceExtensions.cs" t="Include" />
-          <e p="CompilerServices" t="Include">
-            <e p="AsyncMethodBuilderAttribute.cs" t="Include" />
-            <e p="AsyncUniTaskMethodBuilder.cs" t="Include" />
-            <e p="AsyncUniTaskVoidMethodBuilder.cs" t="Include" />
-            <e p="MoveNextRunner.cs" t="Include" />
-          </e>
-          <e p="DiagnosticsExtensions.cs" t="Include" />
-          <e p="Editor" t="Include">
-            <e p="SplitterGUILayout.cs" t="Include" />
-            <e p="UniTaskTrackerTreeView.cs" t="Include" />
-            <e p="UniTaskTrackerWindow.cs" t="Include" />
-          </e>
-          <e p="EnumerableAsyncExtensions.cs" t="Include" />
-          <e p="EnumeratorAsyncExtensions.cs" t="Include" />
-          <e p="ExceptionExtensions.cs" t="Include" />
-          <e p="IAwaiter.cs" t="Include" />
-          <e p="Internal" t="Include">
-            <e p="ArrayPool.cs" t="Include" />
-            <e p="ArrayPoolUtil.cs" t="Include" />
-            <e p="ArrayUtil.cs" t="Include" />
-            <e p="CancellationTokenHelper.cs" t="Include" />
-            <e p="ContinuationQueue.cs" t="Include" />
-            <e p="Error.cs" t="Include" />
-            <e p="Hack.cs" t="Include" />
-            <e p="LazyPromise.cs" t="Include" />
-            <e p="MinimumQueue.cs" t="Include" />
-            <e p="PlayerLoopRunner.cs" t="Include" />
-            <e p="PromiseHelper.cs" t="Include" />
-            <e p="ReusablePromise.cs" t="Include" />
-            <e p="RuntimeHelpersAbstraction.cs" t="Include" />
-            <e p="TaskTracker.cs" t="Include" />
-            <e p="UnityEqualityComparer.cs" t="Include" />
-            <e p="WeakDictionary.cs" t="Include" />
-          </e>
-          <e p="PlayerLoopHelper.cs" t="Include" />
-          <e p="Progress.cs" t="Include" />
-          <e p="Triggers" t="Include">
-            <e p="AsyncAnimatorTrigger.cs" t="Include" />
-            <e p="AsyncAwakeTrigger.cs" t="Include" />
-            <e p="AsyncBeginDragTrigger.cs" t="Include" />
-            <e p="AsyncCancelTrigger.cs" t="Include" />
-            <e p="AsyncCanvasGroupChangedTrigger.cs" t="Include" />
-            <e p="AsyncCollision2DTrigger.cs" t="Include" />
-            <e p="AsyncCollisionTrigger.cs" t="Include" />
-            <e p="AsyncDeselectTrigger.cs" t="Include" />
-            <e p="AsyncDestroyTrigger.cs" t="Include" />
-            <e p="AsyncDragTrigger.cs" t="Include" />
-            <e p="AsyncDropTrigger.cs" t="Include" />
-            <e p="AsyncEnableDisableTrigger.cs" t="Include" />
-            <e p="AsyncEndDragTrigger.cs" t="Include" />
-            <e p="AsyncEventTrigger.cs" t="Include" />
-            <e p="AsyncFixedUpdateTrigger.cs" t="Include" />
-            <e p="AsyncInitializePotentialDragTrigger.cs" t="Include" />
-            <e p="AsyncJointTrigger.cs" t="Include" />
-            <e p="AsyncLateUpdateTrigger.cs" t="Include" />
-            <e p="AsyncMouseTrigger.cs" t="Include" />
-            <e p="AsyncMoveTrigger.cs" t="Include" />
-            <e p="AsyncParticleTrigger.cs" t="Include" />
-            <e p="AsyncPointerClickTrigger.cs" t="Include" />
-            <e p="AsyncPointerDownTrigger.cs" t="Include" />
-            <e p="AsyncPointerEnterTrigger.cs" t="Include" />
-            <e p="AsyncPointerExitTrigger.cs" t="Include" />
-            <e p="AsyncPointerUpTrigger.cs" t="Include" />
-            <e p="AsyncRectTransformTrigger.cs" t="Include" />
-            <e p="AsyncScrollTrigger.cs" t="Include" />
-            <e p="AsyncSelectTrigger.cs" t="Include" />
-            <e p="AsyncStartTrigger.cs" t="Include" />
-            <e p="AsyncSubmitTrigger.cs" t="Include" />
-            <e p="AsyncTransformChangedTrigger.cs" t="Include" />
-            <e p="AsyncTrigger2DTrigger.cs" t="Include" />
-            <e p="AsyncTriggerBase.cs" t="Include" />
-            <e p="AsyncTriggerExtensions.cs" t="Include" />
-            <e p="AsyncTriggerTrigger.cs" t="Include" />
-            <e p="AsyncUpdateSelectedTrigger.cs" t="Include" />
-            <e p="AsyncUpdateTrigger.cs" t="Include" />
-            <e p="AsyncVisibleTrigger.cs" t="Include" />
-          </e>
-          <e p="UniTask.Bridge.cs" t="Include" />
-          <e p="UniTask.cs" t="Include" />
-          <e p="UniTask.Delay.cs" t="Include" />
-          <e p="UniTask.Factory.cs" t="Include" />
-          <e p="UniTask.Run.cs" t="Include" />
-          <e p="UniTask.Threading.cs" t="Include" />
-          <e p="UniTask.WaitUntil.cs" t="Include" />
-          <e p="UniTask.WhenAll.cs" t="Include" />
-          <e p="UniTask.WhenAll.Generated.cs" t="Include" />
-          <e p="UniTask.WhenAny.cs" t="Include" />
-          <e p="UniTask.WhenAny.Generated.cs" t="Include" />
-          <e p="UniTaskCompletionSource.cs" t="Include" />
-          <e p="UniTaskExtensions.cs" t="Include" />
-          <e p="UniTaskExtensions.Shorthand.cs" t="Include" />
-          <e p="UniTaskObservableExtensions.cs" t="Include" />
-          <e p="UniTaskScheduler.cs" t="Include" />
-          <e p="UniTaskVoid.cs" t="Include" />
-          <e p="UnityAsyncExtensions.cs" t="Include" />
-          <e p="UnityAsyncExtensions.Jobs.cs" t="Include" />
-          <e p="UnityAsyncExtensions.uGUI.cs" t="Include" />
-        </e>
       </e>
       <e p="MangaDexReader.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
-      <e p="UniRx.Async.csproj" t="IncludeRecursive" />
-      <e p="UniRx.Async.Editor.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

@@ -84,8 +84,7 @@ public class MangaReader : MonoBehaviour
                     var split = x.Split(' ');
                     return new {str = x, split = split.Length >= 4 ? split : new string[4]};
                 })
-                .OrderBy(x => float.Parse("0" + x.split[1]))
-                .ThenBy(x => float.Parse("0" + x.split[3]))
+                .OrderBy(x => float.Parse("0" + x.split[3]))
                 .Select(x => x.str)
                 .ToList());
 
